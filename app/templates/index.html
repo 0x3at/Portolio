@@ -6,9 +6,10 @@
 
         <meta name="description" content="">
         <meta name="author" content="TemplateMo">
-
-        <title>__init__Job</title>
-
+        <link rel="icon" href="{{ url_for('static', filename='images/happy-bearded-young-man.ico') }}" type="image/x-icon">
+        
+        <title>Please-Hire.me</title>
+        
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
@@ -48,7 +49,7 @@ https://templatemo.com/tm-578-first-portfolio
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">__init__Job.me</a>
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">Please-Hire.me</a>
 
                 <div class="d-flex align-items-center d-lg-none">
                     <i class="navbar-icon bi-telephone-plus me-3"></i>
@@ -81,6 +82,8 @@ https://templatemo.com/tm-578-first-portfolio
                         <a class="custom-btn btn" href="#section_5">
                             817-875-7545
                         </a>
+                        <p style=" width: 10px;">   </p>
+                        <a class="custom-btn btn custom-link"target="_blank" rel="noopener noreferrer" href="https://github.com/0x3at">My Github</a>
                     </div>
                 </div>
 
@@ -139,7 +142,7 @@ https://templatemo.com/tm-578-first-portfolio
 
                                 <p>I'm a developer with a strong background in infrastructure engineering and user support management. My tech journey began in infrastructure, where I sharpened my problem-solving and user-focused skills.</p>
 
-                                <p>Eager to dive into coding, I shifted to QA testing for web apps and taught myself various programming languages over the past year. Python is my forte, particularly in web development with frameworks like Flask. I also have experience with GO, C++, and front-end technologies like JavaScript and HTML/CSS.</p>
+                                <p>Eager to dive into coding, I shifted to QA testing for web apps and taught myself various programming languages over the past few years. Python is my forte, particularly in web and API development with frameworks like Flask and FastAPI. I also have experience with GO, C#, and front-end technologies like JavaScript and HTML/CSS.</p>
 
                                 <p>Aspiring to be a backend developer, I'm passionate about the mechanics behind web applications and eager to keep growing in this dynamic field.</p>
                             </div>
@@ -177,7 +180,7 @@ https://templatemo.com/tm-578-first-portfolio
 
                                     <p>
                                         <span class="profile-small-title">Email</span> 
-                                        <span><a href="mailto:hello@josh.design">erose1098@gmail.com</a></span>
+                                        <span><a href="mailto:hello@josh.design">ethan.lrose@outlook.com</a></span>
                                     </p>
                                 </div>
                             </div>
@@ -187,13 +190,13 @@ https://templatemo.com/tm-578-first-portfolio
                             <div class="about-thumb">
                                 <div class="row">
                                     <div class="col-lg-6 col-6 featured-border-bottom py-2">
-                                        <strong class="featured-numbers">4</strong>
+                                        <strong class="featured-numbers">5</strong>
 
-                                        <p class="featured-text">Years of Experiences</p>
+                                        <p class="featured-text">Years of Experience</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
-                                        <strong class="featured-numbers">1+</strong>
+                                        <strong class="featured-numbers">2+</strong>
 
                                         <p class="featured-text">Years Testing Code Professionally</p>
                                     </div>
@@ -205,7 +208,7 @@ https://templatemo.com/tm-578-first-portfolio
                                     </div>
 
                                     <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
-                                        <strong class="featured-numbers">30+</strong>
+                                        <strong class="featured-numbers">50+</strong>
 
                                         <p class="featured-text">Deployment Cycles</p>
                                     </div>
@@ -223,7 +226,7 @@ https://templatemo.com/tm-578-first-portfolio
                     <div class="row align-items-center">
 
                         <div class="col-lg-12 col-12">
-                            <h3 class="text-center mb-5">Companies I have worked for</h3>
+                            <h3 class="text-center mb-5">Notable Companies I have worked for</h3>
                         </div>
 
                         <div class="col-lg-2 col-4 ms-auto clients-item-height">
@@ -234,8 +237,11 @@ https://templatemo.com/tm-578-first-portfolio
                             <img src="{{ url_for('static', filename='images/clients/integrity-logo.png') }}" class="clients-image img-fluid" alt="">
                         </div>
 
-                        <div class="col-lg-2 col-4 me-auto clients-item-height">
+                        <div class="col-lg-2 col-4 clients-item-height">
                             <img src="{{ url_for('static', filename='images/clients/ucsd-logo.jpg') }}" class="clients-image img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-2 col-4 me-auto clients-item-height">
+                            <img src="{{ url_for('static', filename='images/clients/prado-logo.jpg') }}" class="clients-image img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -257,18 +263,18 @@ https://templatemo.com/tm-578-first-portfolio
                                 <div class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">StreamTato</h3>
+                                            <h3 class="mb-0">Mappa</h3>
 
                                             <div class="services-price-wrap ms-auto">
-                                                <a href="https://github.com/0x3at/Streamtato-prod" target="_blank">
+                                                <a href="https://github.com/0x3at/mappa-cli" target="_blank">
                                                     <p class="services-price-text mb-0">See Code</p>
                                                 </a>                                                
                                                 <div class="services-price-overlay"></div>
                                             </div>
                                         </div>
 
-                                        <p>Streamtato is a straightforward yet functional video streaming web application, developed using Python and Flask. It is deployed on Digital Ocean with the assistance of Gunicorn to ensure it meets production standards. The project features a simple yet effective front-end design, utilizing light stylization and minimal JavaScript. The primary aim of Streamtato was to gain hands-on experience with deployment, data management, and content delivery mechanisms. For media file handling, the app leverages Digital Ocean's CDN, with files stored in Digital Ocean Spaces. This setup not only underscores my skills in using cloud services for storage and distribution but also contributes to the efficient delivery of media content within the application.</p>
-                                        <a href="https://streamtato.dunderinitjob.me"target="_blank" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <p>Mappa is an open source command-line interface (CLI) tool designed to simplify data manipulation for CSV and XLSX files. It enables users to efficiently perform various operations, such as renaming header keys, remapping header positions, stripping unnecessary columns, and converting headers to lowercase. Mappa streamlines data preparation, making it an essential tool for data analysts, developers, and anyone working with spreadsheet data. It can be installed VIA pip @ mappa-cli</p>
+                                        <a href="https://mappa.please-hire.me"target="_blank" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <i class="services-icon bi-globe"></i>
@@ -279,18 +285,19 @@ https://templatemo.com/tm-578-first-portfolio
                                 <div class="col-lg-6 col-12">
                                     <div class="services-thumb services-thumb-up">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">Sivance</h3>
+                                            <h3 class="mb-0">Rewards-R-Us</h3>
 
                                             <div class="services-price-wrap ms-auto">
-                                                <p class="services-price-text mb-0">See Code</p>
+                                                <a href="https://github.com/0x3at/rewards-R-us" target="_blank">
+                                                    <p class="services-price-text mb-0">See Code</p>
+                                                </a>
                                                 <div class="services-price-overlay"></div>
                                             </div>
                                         </div>
 
-                                        <b>UNDER DEVELOPMENT</b>
-                                        <p>Sivance is a web app for customer of Sivance Services to manage, schedule, and pay for services.</p>
+                                        <p>Rewards-R-Us is an eCommerce backend and API developed using Flask and Python, demonstrating my implementation of layered architecture in server design. The application utilizes Flask extensions for Email, Authentication, Payment Processing, and Robust Logging, complemented by custom error handling decorators and multi-tenant support. Rewards-R-Us showcases my understanding of structured application design and the practical application of key development principles.</p>
 
-                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <a href="rewards-r-us.please-hire.me" target= "_blank" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <i class="services-icon bi-lightbulb"></i>
@@ -301,18 +308,20 @@ https://templatemo.com/tm-578-first-portfolio
                                 <div class="col-lg-6 col-12">
                                     <div class="services-thumb">
                                         <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">MTG Deck API</h3>
+                                            <h3 class="mb-0">Core Watch</h3>
 
                                             <div class="services-price-wrap ms-auto">
+                                            <a href="https://github.com/0x3at/core-watch" target="_blank">
                                                 <p class="services-price-text mb-0">See Code</p>
                                                 <div class="services-price-overlay"></div>
+                                            </a>
                                             </div>
                                         </div>
 
                                         <b>UNDER DEVELOPMENT</b>
-                                        <p>The MTG Deck API is an API for returning a prebuilt tabletop MTG deck, based on certain criteria indicated by the user.</p>
+                                        <p>Core Watch is a system monitoring application developed in C# and .NET Core, designed to provide real-time insights into the health of critical system components. It monitors CPU, GPU, and drive health, ensuring optimal performance and early detection of potential issues. The application integrates with Malwarebytes and provides real time scan/threat data. Core Watch features audio and visual notifications to alert users immediately when a problem arises, facilitating proactive system management.</p>
 
-                                        <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                        <a href="core-watch.please-hire.me" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
 
                                         <div class="services-icon-wrap d-flex justify-content-center align-items-center">
                                             <i class="services-icon bi-phone"></i>
@@ -326,13 +335,15 @@ https://templatemo.com/tm-578-first-portfolio
                                             <h3 class="mb-0">Arb-eths</h3>
 
                                             <div class="services-price-wrap ms-auto">
+                                            <a href="https://github.com/0x3at/Arb-eths" target="_blank">
                                                 <p class="services-price-text mb-0">See Code</p>
                                                 <div class="services-price-overlay"></div>
+                                            </a>
                                             </div>
                                         </div>
 
                                         <b>UNDER DEVELOPMENT</b>
-                                        <p>Arb-eths is a python package intended to make stablecoin arbitrage easier on ethereum mainnet, and some layer 2 networks. This Object Oriented project is intended to allow developers to calculate AND EXECUTE arbirtage with just a couple calls to some class methods.</p>
+                                        <p> ArbEths is a primitive arbitrage interface that allows developers and traders to run multiple arbitrage bots via the command line. This application facilitates stablecoin arbitrage across various EVM-based networks and their DEXs. As an object-oriented package, ArbEths enables users to configure trading bots through dependency injection. While preset traders provide quick setup, developers can create personalized traders as customizable building blocks, enhancing flexibility and scalability in trading strategies.</p>
 
                                         <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
 
@@ -369,17 +380,17 @@ https://templatemo.com/tm-578-first-portfolio
                                     <strong class="site-footer-title d-block mb-3">Services</strong>
 
                                     <ul class="footer-menu">
-                                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">API's</a></li>
+                                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">API Development</a></li>
 
-                                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Websites</a></li>
+                                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Web Development</a></li>
 
                                         <li class="footer-menu-item"><a href="#" class="footer-menu-link">Automation</a></li>
 
-                                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">infrastructure</a></li>
+                                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Infrastructure</a></li>
                                     </ul>
-                                    <strong class="site-footer-title d-block mt-4 mb-3">Hire me for your project</strong>
+                                    <strong class="site-footer-title d-block mt-4 mb-3">Need a new team member?</strong>
 
-                                    <p class="mb-0">I'm available for all projects and roles</p>
+                                    <p class="mb-0">As a self taught engineer, I bring the motivation to work hard and the desire to build.</p>
                                 </div>
                             </div>
 
@@ -388,14 +399,14 @@ https://templatemo.com/tm-578-first-portfolio
                                     <strong class="site-footer-title d-block mb-3">About</strong>
 
                                     <p class="mb-2">
-                                        I am a professional web developer. Feel free to get in touch with me, if you like my work and would like to hire me.
+                                        I am a professional software developer. Feel free to get in touch with me, if you like my work and would like to chat.
                               </p>
 
                                     <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
 
                                     <p>
-                                        <a href="mailto:erose1098@gmail.com">
-                                            erose1098@gmail.com
+                                        <a href="mailto:ethan.lrose@outlook.com">
+                                            ethan.lrose@outlook.com
                                         </a>
                                     </p>
 
